@@ -1,0 +1,26 @@
+POST http://localhost:3000/api/user/register
+Content-Type: application/json
+
+{
+    "name": "lunammmm",
+    "email": "lunammmm@lunammmm.com",
+    "password": "lunammmmm"
+}
+
+###
+
+POST http://localhost:3000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "lunammmm@lunammmm.com",
+    "password": "lunammmmm"
+}
+
+###
+
+GET http://localhost:3000/api/posts
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDdhOTUxMDkzN2QwZDBiZWMwZTUyOGEiLCJpYXQiOjE2MTg2NDg0ODl9.zHdL1wXZK9mDy6932T_vL4gIyDLQqH-_xSk-U_sYn0U
+
+
+
